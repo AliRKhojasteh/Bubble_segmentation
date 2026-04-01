@@ -146,7 +146,7 @@ The bubble segmentation pipeline was developed in the context of the following w
   author    = {Nikolaidou, Lina and Khojasteh, Ali R. and Laskari, Angeliki and van Terwisga, Tom and Poelma, Christian},
   title     = {Drag reduction regimes in air lubrication},
   journal   = {Journal of Fluid Mechanics},
-  year      = {2025},
+  year      = {2026},
   note      = {Under consideration for publication, preprint}
 }
 ```
