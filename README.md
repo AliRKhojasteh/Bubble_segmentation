@@ -151,20 +151,6 @@ The bubble segmentation pipeline was developed in the context of the following w
 }
 ```
 
-## Contributing
-
-We welcome contributions! In particular:
-
-- Test cases with different bubble configurations (size distributions, densities, lighting conditions)
-- Experimental images from various bubbly flow setups (channels, pipes, rising bubbles)
-- Improvements to the segmentation pipeline
-
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-The bubbly flow data used in this work is from [Hreiz et al. (2015)](https://doi.org/10.1016/J.CES.2015.04.041).
