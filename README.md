@@ -1,4 +1,4 @@
-# Bubble Segmentation Using SAM2
+# Bubble Segmentation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AliRKhojasteh/Bubble_segmentation/blob/main/Notebooks/automatic_mask_generator.ipynb)
 
@@ -26,11 +26,11 @@ The method is described in Appendix B of our paper:
 
 ## Overview
 
-Bubbles in fluid experiments present unique segmentation challenges: they are not conventional objects in SAM's training data, they exhibit diverse sizes and shapes, and they undergo hydrodynamic deformations along the channel. This repository provides tools to use SAM2 for robust bubble detection in experimental images.
+Bubbles in fluid experiments present unique segmentation challenges: they are not conventional objects, they exhibit diverse sizes and shapes, and they undergo hydrodynamic deformations along the channel. This repository provides tools for robust bubble detection in experimental images.
 
 Key features:
 
-- **Automatic bubble segmentation** using SAM2 with parameters tuned for bubbly flows
+- **Automatic bubble segmentation** with parameters tuned for bubbly flows
 - **Interactive mask editing** via a matplotlib-based interface for adding/removing bubble masks
 - **Binary mask export** for downstream analysis (e.g., bubble size distributions, void fraction)
 - **Colab support** — run the automatic segmentation and post-processing directly in Google Colab, no local setup required
@@ -46,7 +46,7 @@ The fastest way to get started — no installation required:
 
 | Notebook | Colab Link | Description |
 |----------|------------|-------------|
-| `automatic_mask_generator.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AliRKhojasteh/Bubble_segmentation/blob/main/Notebooks/automatic_mask_generator.ipynb) | Automatic bubble detection using SAM2 |
+| `automatic_mask_generator.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AliRKhojasteh/Bubble_segmentation/blob/main/Notebooks/automatic_mask_generator.ipynb) | Automatic bubble detection |
 | `mask_postprocessing.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AliRKhojasteh/Bubble_segmentation/blob/main/Notebooks/mask_postprocessing.ipynb) | Overlay visualization and MATLAB export |
 | `interactive_mask_editor.ipynb` | *Local only* | Interactive editor for reviewing and refining masks |
 
@@ -82,7 +82,7 @@ cd Notebooks
 jupyter notebook
 ```
 
-The notebooks will download SAM2 model checkpoints automatically on first run.
+The notebooks will download model checkpoints automatically on first run.
 
 ## Workflow
 
@@ -96,7 +96,7 @@ The `Demo/` folder contains 10 sample bubble images (`B0001.png` through `B0010.
 
 ## Model Weights
 
-SAM2 model checkpoints are downloaded automatically when running the notebooks. Available models:
+Model checkpoints are downloaded automatically when running the notebooks. Available models:
 
 | Model | Size | GPU Memory | Speed | Accuracy |
 |-------|------|------------|-------|----------|
