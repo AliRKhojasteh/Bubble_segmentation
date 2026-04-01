@@ -142,7 +142,7 @@ If you use this repository in your research, please cite:
 The bubble segmentation pipeline was developed in the context of the following work (preprint):
 
 ```bibtex
-@article{Nikolaidou2025,
+@article{Nikolaidou2026,
   author    = {Nikolaidou, Lina and Khojasteh, Ali R. and Laskari, Angeliki and van Terwisga, Tom and Poelma, Christian},
   title     = {Drag reduction regimes in air lubrication},
   journal   = {Journal of Fluid Mechanics},
