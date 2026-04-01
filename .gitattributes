@@ -1,0 +1,23 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Jupyter notebooks
+*.ipynb linguist-language=Jupyter-Notebook
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.tif binary
+*.tiff binary
+
+# Model weights
+*.pth binary
+*.pt binary
+
+# Data files
+*.npy binary
+*.npz binary
+*.h5 binary
+*.hdf5 binary
